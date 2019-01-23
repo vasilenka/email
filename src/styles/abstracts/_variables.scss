@@ -8,26 +8,34 @@ $global-width-small: 100%;
 $global-gutter: 40px;
 
 // Global colors. Make sure any color statement uses one of these
-$color-black: #000;
-$color-off-black: #1a1a1a;
+$color-black: #0f0f0f;
+$color-off-black: #484848;
 $color-dark-gray: #999999;
-$color-gray: #777b85;
+$color-gray: #767676;
 $color-light-gray: #9ea0a6;
 $color-white: #fff;
-$color-green: #00E2AC;
+$color-primary: #D70773;
+$color-secondary: #7CC7CA;
+$color-tertiary: #688EC9;
+
+// Global Sizes
+$heading1: 32px;
+$heading2: 24px;
+$heading3: 20px;
+$heading4: 18px;
+$heading5: 16px;
+$heading6: 14px;
 
 // Web fonts in use
-$font-tisa: TisaPro, Helvetica, Arial, sans-serif;
-$font-akagi: AkagiPro, Helvetica, Arial, sans-serif;
+$font-primary: Ebrima, Masbul, Helvetica, Arial, sans-serif;
+$font-secondary: Masbul, Helvetica, Arial, sans-serif;
 
-// Weights for the Tisa Pro web font
-$weight-tisa-thin: 200;
-$weight-tisa-light: 300;
-
-// Weights for the Akagi Pro web font
-$weight-akagi-book: 400;
-$weight-akagi-medium: 500;
-$weight-akagi-bold: 700;
+// Weights for the fonts
+$weight-thin: 200;
+$weight-light: 300;
+$weight-book: 400;
+$weight-medium: 500;
+$weight-bold: 700;
 
 // Make background transparent so inner sections can be white
 $container-background: transparent;

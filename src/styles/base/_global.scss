@@ -11,12 +11,22 @@
 .body-text {
   margin-bottom: 30px;
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @include antialias;
+    font-family: $font-primary;
+  }
+
   p {
     @include antialias;
-    font-family: $font-akagi;
-    font-size: 16px;
+    font-family: $font-secondary;
+    font-size: 17px;
     line-height: 27px;
-    color: $color-gray;
+    color: $color-off-black;
 
     @include on-mobile {
       font-size: 14px !important;
@@ -28,7 +38,7 @@
     &,
     &:link,
     &:visited {
-      font-family: $font-akagi;
+      font-family: $font-secondary;
       color: $color-gray;
 			font-weight: normal;
 			text-decoration: underline;

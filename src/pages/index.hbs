@@ -1,13 +1,14 @@
 {{#> section}}
   <div class="segment segment--narrow">
-    <a href="#">
-      <img src="images/placeholder-title.jpg" mc:edit="article_1_title" width="420" alt="Hi I'm title. This subtitle wraps to two lines." class="image image--title" />
-    </a>
+    <div class="body-text" mc:edit="article_1_text">
+      <h1 class="head__greeting">Dear, herlambang</h1>
+      <p>Selesaikan pembayaran anda sebelum <span class="head__deadline">Jumat, 14 September 2019, 17:58</span></p>
+    </div>
   </div>
 
-  <a href="#">
-    <img src="images/placeholder-1160.jpg" mc:edit="article_1_image" class="image image--upper" width="580" alt="Hand inside mailbox holding out letter" />
-  </a>
+  {{!-- <a href="#">
+    <img src="https://staging.atraveli.com/images/8331546846019169.png" mc:edit="article_1_image" class="image image--upper" width="580" height="8px" alt="Hand inside mailbox holding out letter" />
+  </a> --}}
 
   <div class="segment segment--narrow first-story">
     <div class="body-text" mc:edit="article_1_text">
@@ -19,7 +20,7 @@
     {{/link}}
   </div>
 
-  <div mc:hideable data-hideable="second story">
+  {{!-- <div mc:hideable data-hideable="second story">
     <div class="segment segment--narrow">
       {{> divider }}
 
@@ -39,9 +40,9 @@
         <img class="image image--lower" mc:edit="article_2_image" src="images/placeholder-1000.jpg" width="500" alt="Ueno's Los Angeles office" />
       </a>
     </div>
-  </div>
+  </div> --}}
 
-  <div mc:hideable data-hideable="third story">
+  {{!-- <div mc:hideable data-hideable="third story">
     <div class="segment segment--narrow">
       {{> divider safeguard='true' }}
       <a href="#">
@@ -60,7 +61,7 @@
         <img class="image image--lower" mc:edit="article_3_image" src="images/placeholder-1000.jpg" width="500" alt="Jenny and Robbin standing side by side" />
       </a>
     </div>
-  </div>
+  </div> --}}
 {{/section}}
 
 {{#> section variant="Dear Ueno"}}
@@ -120,77 +121,12 @@
         <p>Are you a good person who when asked for directions by a tourist will always answer truthfully?</p>
       </div>
     </columns>
-    <columns large="6">
-      <div class="job-openings__title" mc:edit="jobopenings_2_name">
-        <p class="title">
-          <a href="//example.com">
-            Art director
-          </a>
-        </p>
-        <p class="subtitle">
-          <a href="//example.com">
-            New York
-          </a>
-          <img src="images/pin.jpg" alt="" class="job-openings__icon" with="11" height="14">
-        </p>
-      </div>
-      <div class="body-text" mc:edit="jobopenings_2_description">
-        <p>Are you a good person who when asked for directions by a tourist will always answer truthfully?</p>
-      </div>
-    </columns>
   </row>
   <div class="segment segment--narrow">
     {{#> link edit='jobopenings_linktext'}}
       We're hiring
     {{/link}}
   </div>
-{{/section}}
-
-{{#> section variant="ueno.store"}}
-  {{> header-store}}
-
-  <a href="#">
-    <img src="images/placeholder-1160.jpg" mc:edit="store_1_image" class="image" width="580" alt="Hand holding playing cards" />
-  </a>
-
-  <div class="segment segment--narrow store-item-1">
-    <p class="title" mc:edit="store_1_name"><a href="#">
-      MINIM Playing Cards &mdash; $10
-    </a></p>
-    <p class="subtitle" mc:edit="store_1_seller"><a href="#">
-      Areaware
-    </a></p>
-  </div>
-
-  <a href="#">
-    <img src="images/placeholder-1160.jpg" mc:edit="store_2_image" class="image" width="580" alt="Feet wearing cat-themed socks with stripes" />
-  </a>
-
-  <div class="segment segment--narrow store-item-2">
-    <p class="title" mc:edit="store_2_name"><a href="#">
-      Cat Socks &mdash; $8.99
-    </a></p>
-    <p class="subtitle" mc:edit="store_2_seller"><a href="#">
-      CoCozy
-    </a></p>
-  </div>
-{{/section}}
-
-{{#> section variant="ueno.design"}}
-  {{> header-design}}
-
-  <row class="design-gallery">
-    <columns small="6">
-      {{> design-gallery-item n=1}}
-      {{> design-gallery-item n=2}}
-      {{> design-gallery-item n=3}}
-    </columns>
-    <columns small="6">
-      {{> design-gallery-item n=4}}
-      {{> design-gallery-item n=5}}
-      {{> design-gallery-item n=6}}
-    </columns>
-  </row>
 {{/section}}
 
 {{#> section variant="Spotify" collapse=true}}

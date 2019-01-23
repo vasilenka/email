@@ -9,8 +9,8 @@
   // Logo styles
   // Because it's an email, we have to define specific widths and heights for each image
   .body &__logo {
-    width: 62px;
-    height: 14px;
+    width: 136px;
+    height: 28px;
 
     &--store {
       width: 124px;
@@ -31,7 +31,7 @@
 
   // Styles for date, shown in first header
   &__date {
-    font-family: $font-akagi;
+    font-family: $font-secondary;
     font-size: 15px;
     color: $color-gray;
     text-align: right;
