@@ -14,7 +14,7 @@
   @include antialias;
   font-size: 16px;
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 
   @include on-mobile {
     font-size: 14px !important;

@@ -31,6 +31,17 @@
     padding-right: $global-gutter * 2;
   }
 
+  &--with-top {
+    padding-top: 40px;
+  }
+
+  &--important {
+    background: #62c9cb;
+    color: $color-white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
   @include on-mobile {
     padding-left: $global-gutter / 2 !important;
     padding-right: $global-gutter / 2 !important;

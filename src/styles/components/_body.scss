@@ -1,0 +1,18 @@
+.body__package_name {
+  font-size: $heading4;
+  font-weight: 700;
+  color: $color-off-black;
+}
+
+.body-text p.small-paragraph {
+  font-size: $heading5;
+}
+
+.body-text p.large-paragraph {
+  font-size: $heading4;
+}
+
+.body-text a, .body-text a:link, .body-text a:visited {
+  text-decoration: none;
+  font-weight: $weight-medium;
+}
