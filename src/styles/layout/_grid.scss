@@ -36,10 +36,12 @@
   }
 
   &--important {
-    background: #62c9cb;
+    // background: #FFE380;
+    background: $color-primary;
     color: $color-white;
     padding-top: 12px;
     padding-bottom: 12px;
+    margin-bottom: 40px;
   }
 
   @include on-mobile {

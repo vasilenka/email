@@ -5,7 +5,20 @@
 }
 
 .body-text p.small-paragraph {
+  font-size: $heading6;
+  font-weight: 500;
+  color: #767676;
+}
+
+.body-text p.white-paragraph {
+  color: #FFFFFF;
+  font-weight: 500;
   font-size: $heading5;
+}
+
+span.bold {
+  font-weight: 700;
+  margin-right: 6px;
 }
 
 .body-text p.large-paragraph {
@@ -15,4 +28,14 @@
 .body-text a, .body-text a:link, .body-text a:visited {
   text-decoration: none;
   font-weight: $weight-medium;
+}
+
+.bank--logo {
+  margin-bottom: 12px;
+}
+
+.secondary--title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #484848;
 }
